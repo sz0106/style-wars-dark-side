@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dark Side - Style Wars</title>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    body {
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+<body class="bg-cover bg-center bg-no-repeat text-gray-300" style="background-image: url('https://media.istockphoto.com/id/1467937769/photo/digital-technology-abstract-concept-small-particles-connected-in-multicolored-lines-with-a.jpg?b=1&s=612x612&w=0&k=20&c=vsPq5hsb1zynhVzY_aw291H2yRoD5NnfrplgSYddKaQ=');">
+
+  <!-- Navbar -->
+  <nav class="fixed w-full flex items-center justify-between p-4 shadow-md backdrop-blur-lg bg-gray-900/50 text-white z-50">
+    <div class="text-2xl font-bold">Dark Side</div>
+    <ul class="flex gap-6 text-lg">
+      <li><a href="#" class="hover:text-gray-400">Home</a></li>
+      <li><a href="#" class="hover:text-gray-400">Rules</a></li>
+      <li><a href="#" class="hover:text-gray-400">Join the Shadows</a></li>
+      <li><a href="#" class="hover:text-gray-400">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="h-screen flex flex-col justify-center items-center text-center bg-black/70">
+    <h1 class="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 animate-pulse">Embrace the Dark Side</h1>
+    <p class="mt-4 text-gray-400 max-w-xl mx-auto">
+      Step into a world of elegance and depth. The Dark Side values bold, immersive design that captivates and intrigues every visitor.
+    </p>
+    <div class="mt-6 space-x-4">
+      <button class="px-6 py-2 rounded-lg bg-blue-700 hover:bg-blue-600 transition transform hover:scale-105">Join the Dark</button>
+      <button class="px-6 py-2 rounded-lg bg-gray-500 hover:bg-gray-400 transition transform hover:scale-105">Learn More</button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="h-screen mx-auto text-center py-16 bg-black/70 rounded-lg shadow-lg">
+    <h2 class="text-4xl font-bold text-white">About the Dark Side</h2>
+    <p class="mt-4 text-gray-400">The Dark Side is for those who appreciate sophistication, contrast, and the power of mystery in web design. Our members craft experiences that draw users in and encourage exploration.</p>
+    <p class="mt-2 text-gray-400">We focus on rich visuals, layered content, and dramatic layouts that make every page memorable. The Dark Side’s philosophy is to use contrast and depth to create intrigue, guiding users through a journey of discovery.</p>
+    <h3 class="mt-8 text-3xl font-semibold text-white">Our Vision</h3>
+    <p class="mt-4 text-gray-400">We believe the web should be immersive and visually striking. By embracing darkness, we highlight what matters and create an atmosphere that is both modern and timeless.</p>
+    <p class="mt-4 text-gray-400">The Dark Side community welcomes all who are bold enough to experiment and redefine what is possible in digital experiences.</p>
+  </section>
+
+  <!-- Strengths Section -->
+  <section class="grid grid-cols-1 md:grid-cols-3 gap-8 max-h-4xl mx-auto text-center py-16 bg-black/80 rounded-lg shadow-lg">
+    <div class="p-6 bg-gray-800 rounded-lg shadow-lg">
+      <h3 class="text-2xl font-bold text-white">Elegance</h3>
+      <h4 class="text-xl text-blue-400 mt-4">Refined Aesthetics</h4>
+      <p class="text-gray-400 mt-2">Minimalist elements and careful alignment create a sense of luxury and professionalism.Every detail is intentional, from the use of space to the choice of color accents.</p>
+       <h4 class="text-xl text-blue-400 mt-4">Contrast and Focus</h4>
+      <p class="text-gray-400 mt-2">Strong contrasts guide the user’s attention, making key content stand out and enhancing readability. We use shadows, overlays, and gradients to add richness and dimension.</p>
+      <p class="text-gray-400 mt-2">Elegance means restraint—knowing when to let content breathe and when to make a statement.</p>
+      <button class="mt-4 px-6 py-2 rounded-lg bg-blue-500 hover:bg-blue-400 transition transform hover:scale-105">Explore Elegance</button>
+    </div>
+    <div class="p-6 bg-gray-800 rounded-lg shadow-lg">
+      <h3 class="text-2xl font-bold text-white">Depth</h3>
+      <h4 class="text-xl text-purple-400 mt-4">Layered Design</h4>
+      <p class="text-gray-400 mt-2">The Dark Side leverages depth through visual hierarchy, subtle animations, and interactive cues. Our interfaces feel immersive, drawing users into the experience.</p>
+      <h4 class="text-xl text-purple-400 mt-4">Dynamic Interactions</h4>
+      <p class="text-gray-400 mt-2">Interactive elements and transitions create a sense of movement and intrigue, encouraging users to explore further. We use parallax, overlays, and modal windows to add complexity and engagement.</p>
+      <p class="text-gray-400 mt-2">Depth is not just visual—it’s about creating a journey that unfolds as users interact with the site.</p>
+      <button class="mt-4 px-6 py-2 rounded-lg bg-purple-700 hover:bg-purple-500 transition transform hover:scale-105">Discover Depth</button>
+    </div>
+    <div class="p-6 bg-gray-800 rounded-lg shadow-lg">
+      <h3 class="text-2xl font-bold text-white">Mystery</h3>
+      <h4 class="text-xl text-pink-400 mt-4">Intriguing Content</h4>
+      <p class="text-gray-400 mt-2">Information is revealed thoughtfully, inviting curiosity and rewarding explorationwith new discoveries. We use unconventional layouts and hidden details to surprise and delight users.</p>
+       <h4 class="text-xl text-pink-400 mt-4">Memorable Experiences</h4>
+      <p class="text-gray-400 mt-2">Unique layouts and creative visuals ensure that every visit to a Dark Side site is unforgettable. We believe that mystery is a powerful tool for engagement and retention.</p>
+      <p class="text-gray-400 mt-2">The Dark Side thrives on creativity, experimentation, and the thrill of the unknown.</p>
+      <button class="mt-4 px-6 py-2 rounded-lg bg-pink-500 hover:bg-pink-400 transition transform hover:scale-105">Get Inspired</button>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="h-screen mx-auto text-center py-16 bg-black/80 rounded-lg shadow-lg">
+    <h2 class="text-4xl font-bold text-white">Ready to Make an Impact?</h2>
+    <p class="mt-4 text-gray-400">Join the Dark Side and redefine what’s possible in web design. Stand out, captivate, and inspire. Take part in our events, contribute to our gallery, or connect with fellow designers to share your story.</p>
+    <ul class="mt-4 space-y-2 text-gray-400">
+      <li>Register for exclusive Dark Side workshops and tutorials.</li>
+      <li>Browse our showcase of cutting-edge, dark-themed designs.</li>
+      <li>Engage with the community in our discussion forums.</li>
+    </ul>
+    <div class="mt-6 space-x-4">
+      <button class="px-6 py-2 rounded-lg bg-blue-500 hover:bg-blue-400 transition transform hover:scale-105">Sign Up Now</button>
+      <button class="px-6 py-2 rounded-lg bg-gray-700 hover:bg-gray-600 transition transform hover:scale-105">See Our Showcase</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-8 bg-gray-900 text-gray-400">
+    <h3 class="text-xl font-bold text-white">Contact the Dark Side Team</h3>
+    <p class="mt-4">Email: dark@stylewars.com</p>
+    <p class="mt-4">Follow us for news, tips, and inspiration.</p>
+    <p class="mt-2">&copy; 2025 Dark Side. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
