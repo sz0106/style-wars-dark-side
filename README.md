@@ -32,10 +32,6 @@ The Dark Side isn't just a color palette — it's a design ideology. Bold contra
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Deployed frontend
 
-Clone the repo and open the `index.html` in your browser:
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+https://sz0106.github.io/style-wars-dark-side/
